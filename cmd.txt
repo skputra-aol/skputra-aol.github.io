@@ -18,6 +18,9 @@ $ awslocal s3 cp README.md s3://demo-bucket/folder2/README2.MD (auto create fold
 $ awslocal s3 ls s3://demo-bucket
 $ awslocal s3 ls s3://demo-bucket/folder2
 
-##### get/post api from terminal
-$ curl -X GET https://api.example.com/users
+#### aws cli show all profile
+$ aws configure list-profiles
+
+#### get/post api from terminal
+$ curl -X GET https://localhost:7089/swagger/v1/swagger.json --insecure (buat https pake insecure)
 $ curl -X POST https://api.example.com/users
