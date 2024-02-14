@@ -33,7 +33,7 @@ Default output format [None]:
 $ aws --endpoint=http://localhost.localstack.cloud:4566 s3 mb s3://demo-bucket
 // or ,with simple awslocal
 $ awslocal s3 mb s3://demo-bucket2
-
+ 
 #### Test copy file(README.MD) to S3 bucket(demo-bucket)
 $ awslocal s3 cp README.md s3://demo-bucket/README.MD
 $ awslocal s3 cp README.md s3://demo-bucket/folder2/README2.MD (auto create folder2 if not exist)
